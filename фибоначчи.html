@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+  </head>
+  <body>
+
+      <script>
+      const fib = (letter) => {
+    let name1 = 1;
+    let name2 = 1;
+
+
+    let i = 3;
+
+    while (i <= letter) {
+        let name3 = name1 + name2;
+        name1 = name2;
+        name2 = name3;
+        i++;
+    }
+
+    return name2;    
+}
+      </script>
+  </body>
+</html>
